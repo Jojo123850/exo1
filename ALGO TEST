@@ -1,0 +1,28 @@
+ALGORITHME NombreEtudiant
+
+VARIABLES Tableau monTableau[NbEtudiants] ou [NomEtudiant<-NbEtudiants] [NbNote]: réel
+					i,j: entier
+					nb:entier
+					NomEtudiant: chaine
+					NbNote: réel
+					
+
+DEBUT
+	afficher "Combien y a t-il d'étudiant ?"
+	saisir (nb)
+	
+	POUR i<- 0 à longueur(monTableau)-1 FAIRE
+		afficher ("entrer le nom de l'étudiant ")
+		saisir (NomEtudiant)
+		
+			afficher ("entrer la note ")
+			saisir (Nbnote)
+		
+		{Pour chaque case, enregistrer la note}
+				POUR j<- 0 à nbNotes -1 FAIRE
+					afficher ("Veuillez saisir la notre numéro", j+1)
+					saisir (monTableau[NbEtudiant][j])
+				FIN POUR
+	FIN POUR
+	
+FIN
